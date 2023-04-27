@@ -8,7 +8,7 @@ const Projectcarddata = [
         title: "E-commerce Website",
         text: "This is an ongoing e-commerce food website built with html css and javascript to be converted to a react project.",
         view : "View",
-        viewlink: "https://marwumi.github.io/foodbag/",
+        viewlink: "https://mowumi-foodcart.netlify.app/",
         source: "Source",
         sourcelink: "https://github.com/Marwumi/foodbag"
     },
