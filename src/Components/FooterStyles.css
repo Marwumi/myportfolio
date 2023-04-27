@@ -47,3 +47,7 @@ p{
     }
     
 }
+.social_icons:hover{
+    width: 30px;
+    height: 30px;
+}

@@ -37,31 +37,36 @@ const Footer = () => {
         </div>
         <div className="right">
             <h4>About Me</h4>
-           <p> I am a tech enthusiast with a focus on front-end development. I am highly motivated to secure a junior developer position at a tech company, where i can gain practical experience and improve my skills by actively participating in projects and tasks.
-            <br></br>
-            Below are the icons that link to my social media profiles and resume.
+           <p> Hi there! I'm a tech enthusiast with a strong focus on front-end development. My technical skills include HTML, CSS, Tailwind, JavaScript, and React.
+            <br/>
+            <br/>
+            Please feel free to check out my social media profiles and resume by clicking on the icons below.
            </p>
            <div className="social">
-           <a href="https://www.linkedin.com/in/mowumi-latinwo">
+           <a href="https://www.linkedin.com/in/mowumi-latinwo" >
             <FaLinkedin
+             className="social_icons"
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
             </a>
             <a href="https://github.com/Marwumi/">
             <FaGithub
+             className="social_icons"
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
             </a>
-            <a href="https://drive.google.com/file/d/1Goh1ZF2SWXXzyXo4iWKYcVUyBwoFRq8W/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/132oK7mg5xzNnhdAEL409LNdaPw9R6wHY/view?usp=sharing">
             <FaFile
+             className="social_icons"
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
             </a>
             <a href="https://twitter.com/marwumi">
             <FaTwitter
+             className="social_icons"
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />

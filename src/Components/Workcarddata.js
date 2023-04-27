@@ -1,4 +1,4 @@
-import three from "../assets/three.jpg"
+import three from "../assets/aa.png"
 import five from "../assets/pulse.jpg"
 import six from "../assets/six.webp"
 
@@ -6,16 +6,16 @@ const Projectcarddata = [
     {
         imgsrc:three,
         title: "E-commerce Website",
-        text: "This is an ongoing e-commerce food website built with html css and javascript to be converted to a react project.",
+        text: "Built with React and Redux",
         view : "View",
         viewlink: "https://mowumi-foodcart.netlify.app/",
         source: "Source",
-        sourcelink: "https://github.com/Marwumi/foodbag"
+        sourcelink: "https://github.com/Marwumi/p"
     },
     {
         imgsrc:five,
-        title: "Pulse Webpage",
-        text: "This is a pulse website. This webpage was built from scratch to understand flex and grid display in css. ",
+        title: "Pulse Website",
+        text: "Built with Html, Css and Js",
         view: "View",
         viewlink: "https://marwumi.github.io/pulse/",
         source: "Source",
@@ -23,8 +23,8 @@ const Projectcarddata = [
     },
     {
         imgsrc:six,
-        title: "A landing page",
-        text: "This is a landing page of a website. This was built with html and css.",
+        title: "Abstract landing page",
+        text: "Built with html and css.",
         view: "View",
         viewlink: "https://marwumi.github.io/abstract/",
         source: "Source",

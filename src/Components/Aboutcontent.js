@@ -11,11 +11,11 @@ const Aboutcontent = () => {
     <div className="about">
       <div className="left">
         <h1>Who Am I?</h1>
-        <p>My name is Olatinwo Omowumi. I have a degree in Animal Science, but unexpectedly developed an interest in technology. My Skillset includes HTML, CSS, Bootstrap, Git, JavaScript and Reactjs.
+        <p>Hi there! My name is Olatinwo Omowumi, and I'm excited to share my journey of unexpected discovery in the world of software development. Despite my background in Animal Science, my love for learning and exploration led me to acquire technical skills in this exciting field.
           <br></br>
           <br></br>
-          As a front-end developer, I am eager to break into the tech industry and make a name for myself.
-          I have a strong belief in my capabilities and I'm dedicated to putting in the effort required to reach my goals. I am commited to constantly learning and improving to continue to grow professionally. I am enthusiastic about the opportunity to utilize my love for technology to make a positive impact in the industry.
+          As a self-motivated and enthusiastic learner, I'm constantly seeking opportunities to enhance my technical proficiency and contribute to innovative projects. With a strong foundation in web development, I'm eager to collaborate with like-minded professionals and create cutting-edge solutions that positively impact the world.
+          Thank you for taking the time to visit my portfolio, and please don't hesitate to reach out to me for inquiries or potential collaborations.
         </p>
         <Link to="/contact"><button className="btn">Contact</button></Link>
       </div>
