@@ -2,8 +2,20 @@ import three from "../assets/aa.png"
 import five from "../assets/pulse.jpg"
 import six from "../assets/six.webp"
 import seven from "../assets/pp.png"
+import budget from "../assets/budget.png"
+
+
 
 const Projectcarddata = [
+    {
+        imgsrc:budget ,
+        title: "A Budgeting  App",
+        text: "This is a simple yet effective budgeting app built with React. You can log in and keep tracks of your budgets and expenses with ease.",
+        view : "View",
+        viewlink: "https://mowumi-budget.netlify.app/",
+        source: "Source",
+        sourcelink: "https://github.com/Marwumi/Budgeting-App"
+    },
     {
         imgsrc:three,
         title: "E-commerce Website",
