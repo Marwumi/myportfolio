@@ -1,15 +1,20 @@
-import "./AboutcontentStyles.css"
-
-import React from 'react'
+import "./Styles/AboutcontentStyles.css"
+import React, { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Import AOS styles
 import { Link } from "react-router-dom"
 import five from "../assets/five.webp"
 import six from "../assets/six.webp"
 
 
 const Aboutcontent = () => {
+  useEffect(() => {
+    AOS.init(); // Initialize AOS when the component mounts
+  }, []);
+
   return (
     <div className="about">
-      <div className="left">
+      <div className="left" data-aos="fade-left">
         <h1>Who Am I?</h1>
         <p>Hi there! My name is Olatinwo Omowumi, and I'm excited to share my journey of unexpected discovery in the world of software development. Despite my background in Animal Science, my love for learning and exploration led me to acquire technical skills in this exciting field.
           <br></br>
@@ -21,7 +26,7 @@ const Aboutcontent = () => {
       </div>
 
 
-      <div className="right">
+      <div className="right" data-aos="fade-right">
         <div className="img-container">
             <div className="img-stack top">
                 <img src={five} className="img" alt="true" />

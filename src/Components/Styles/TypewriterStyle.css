@@ -1,0 +1,16 @@
+.typewriter {
+  font-family: "Arial", sans-serif;
+  border-right: 2px solid rgb(248, 217, 15);
+  /* Add a cursor-like effect using a border */
+  padding-right: 5px; /* To make sure the last letter is not hidden by the cursor effect */
+  padding: 10px;
+  font-size: 3.4rem;
+  font-weight: 200;
+  color: #fff;
+}
+
+@media screen and (max-width: 640px) {
+  .typewriter {
+    font-size: 2.2rem;
+  }
+}

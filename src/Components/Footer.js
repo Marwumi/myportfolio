@@ -1,11 +1,12 @@
-import "./FooterStyles.css";
+import "./Styles/FooterStyles.css";
 import { FaFile, FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from "react-icons/fa";
-
 import React from "react";
+import ThreeBackground from "./ThreeBackground";
 
 const Footer = () => {
   return (
     <div className="footer">
+      <ThreeBackground />
       <div className="footer-container">
         <div className="left">
           <div className="location">
@@ -22,7 +23,7 @@ const Footer = () => {
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
-              +2348165468022, +2347088805643
+              +2348165468022, +2347054117167
             </h4>
           </div>
           <div className="Email">
@@ -37,7 +38,7 @@ const Footer = () => {
         </div>
         <div className="right">
             <h4>About Me</h4>
-           <p> Hi there! I'm a tech enthusiast with a strong focus on front-end development. My technical skills include HTML, CSS, Tailwind, JavaScript, and React.
+           <p> Hi there! I'm a tech enthusiast with a strong focus on front-end development. My technical skills include HTML, CSS, Tailwind, JavaScript, React and Wordpress.
             <br/>
             <br/>
             Please feel free to check out my social media profiles and resume by clicking on the icons below.

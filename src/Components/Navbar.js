@@ -1,4 +1,4 @@
-import "./NavbarStyles.css"
+import "./Styles/NavbarStyles.css"
 import React, { useState } from 'react'
 import { Link} from "react-router-dom"
 import { NavLink } from "react-router-dom"
@@ -23,7 +23,7 @@ const changeColor = () => {
   return (
     <div className={color ? "header header-bg" : "header"}>
      <Link to="/">
-      <h1>Portfolio</h1>
+      <h2>&lt;Dev Mo/&gt;</h2>
      </Link>
      <ul className= {click ? "nav-menu active" : "nav-menu"} style={{textDecoration: "none"}}>
       <li><NavLink to="/">Home</NavLink></li>
@@ -33,9 +33,9 @@ const changeColor = () => {
      </ul>
     
      <div className="hamburger" onClick =  {handleClick}>
-      {click ? (<FaTimes size={20} style={{color:"#fff"}}/>
+      {click ? (<FaTimes size={20} style={{color:"#fff"}} className="mobile--menu"/>
       ): (
-      <FaBars size={20} style={{color:"#fff"}}/>)
+      <FaBars size={20} style={{color:"#fff"}} className="mobile--menu"/>)
 }
      </div>
     </div>

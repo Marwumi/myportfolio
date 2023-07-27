@@ -1,8 +1,9 @@
-import "./HeroimgStyles.css"
+import "./Styles/HeroimgStyles.css"
 
 import React from 'react'
 import IntroImg from "../assets/ace.jpg"
 import { Link } from "react-router-dom"
+import Typewriter from "./Typewriter"
 
 const Heroimg = () => {
   return (
@@ -11,8 +12,9 @@ const Heroimg = () => {
       <img className="into-img" src={IntroImg} alt="" />
       </div>
       <div className="content">
-    <h1>Hey there, I'm Mowumi, a Front-end developer.</h1>
-    <div>
+     {/* <h1>Hey there, I'm Mowumi, a Front-end developer.</h1> */}
+     <Typewriter />
+     <div>
         <Link to="/project" className="btn">Project</Link>
         <Link to="/contact" className="btn btn-light">Contact</Link>
     </div>

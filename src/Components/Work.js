@@ -1,15 +1,18 @@
-import "./WorkcardStyles.css";
+import "./Styles/WorkcardStyles.css";
 import Workcard from "./Workcard";
 import Workcarddata from "./Workcarddata";
 
 import React from "react";
 
 const Work = () => {
+  // Use slice to get the first three elements from the Workcarddata array
+  const threeWorkcardsData = Workcarddata.slice(0, 3);
+  
   return (
     <div className="work-container">
       <h1 className="project-heading">Projects</h1>
       <div className="project-container">
-        {Workcarddata.map((val, ind) =>{
+        {threeWorkcardsData.map((val, ind) =>{
             return(
                 <Workcard 
                 key={ind}

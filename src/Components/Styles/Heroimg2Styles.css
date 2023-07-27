@@ -6,7 +6,7 @@
 }
 .hero-img::before{
     content: "";
-    background: url("../assets/cee.jfif");
+    background: url("../../assets/cee.jfif");
     background-size: cover;
     background-position: center top;
     height: 100%;

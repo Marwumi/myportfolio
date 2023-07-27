@@ -11,8 +11,9 @@
     padding-bottom: 5rem;
 }
 .project-card{
-    background: #1a1919;
+    /* background: #1a1919; */
     padding: 1.2rem 1rem;
+    /* border-radius: 5px; */
 }
 .project-card img {
     width: 100%;
@@ -35,6 +36,27 @@
 .pro-btns .btn{
     padding: 0.5rem 1rem;
 }
+.img{
+    border-radius: 10px;
+    /* border-top-right-radius:10px ;
+    border-bottom-left-radius: 10px; */
+}
+.btn--project{
+        padding: 12px 32px;
+        font-size: 1rem;
+        text-transform: uppercase;
+        background: #090909;
+        color: #f8d50d;
+        border: 1px solid black;
+        font-weight: 600;
+        cursor: pointer;
+        border-radius: 10px;
+}
+.btn--project:hover {
+    background-color: #323131;
+    color: #ffffff;
+  }
+  
 @media screen and (max-width: 740px) {
     .project-container{
         max-width: 90%;

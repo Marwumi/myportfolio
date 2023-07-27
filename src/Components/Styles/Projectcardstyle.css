@@ -1,0 +1,64 @@
+.project-cardd {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  margin: 4px auto;
+  max-width: 1000px;
+}
+.project-cardd-details {
+  margin-top: -60px;
+  width: 500px;
+  text-align: center;
+  align-content: center;
+}
+.project-cardd-img {
+  border-radius: 12px;
+  margin-bottom: 50px;
+  max-width: 300px;
+}
+@media screen and (max-width: 768px) {
+  .project-cardd {
+    display: flex;
+    flex-direction: column;
+    padding: 4px 1px;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+    margin: 2px 4px;
+  }
+  .project-cardd-details {
+    margin-top: 9px;
+    width: fit-content;
+  }
+  .project-cardd-img {
+    border-radius: 12px;
+    margin-bottom: 0px;
+    max-width: 300px;
+  }
+  .view--project {
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+}
+
+.stack {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.stack button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #4c3c3c;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.stack button:hover {
+  background-color: #d0d0d0;
+}

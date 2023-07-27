@@ -1,9 +1,8 @@
-
-
-
-import React from 'react';
+import React, { useEffect } from 'react';
 import emailjs from 'emailjs-com';
 import { useRef, useState } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Import AOS styles
 
 const Formtwo = () => {
   const [submitting, setSubmitting] = useState(false);
@@ -38,6 +37,10 @@ const Formtwo = () => {
 
   const form = useRef();
 
+  useEffect(() => {
+    AOS.init(); // Initialize AOS when the component mounts
+  }, []);
+
   return (
     <div class="container">
       <div class="row">
@@ -49,7 +52,7 @@ const Formtwo = () => {
           ) : (
             <form ref={form} onSubmit={sendEmail}>
               {/* <!-- name --> */}
-              <div class="form-group">
+              <div class="form-group" data-aos="fade-up">
                 <label for="name" className='text-light'>Name</label>
                 <input
                   type="name"
@@ -62,7 +65,7 @@ const Formtwo = () => {
               </div>
 
               {/* <!-- email --> */}
-              <div class="form-group">
+              <div class="form-group" data-aos="fade-up">
                 <label for="email" className='text-light'>Email address</label>
                 <input
                   type="email"
@@ -75,7 +78,7 @@ const Formtwo = () => {
               </div>
 
               {/* <!-- subject --> */}
-              <div class="form-group">
+              <div class="form-group" data-aos="fade-up">
                 <label for="subject" className='text-light'>Subject</label>
                 <input
                   type="text"
@@ -87,7 +90,7 @@ const Formtwo = () => {
                 />
               </div>
 
-              <div class="form-group">
+              <div class="form-group" data-aos="fade-up">
                 <label for="email_body" className='text-light'>Message</label>
                 <textarea
                   className="form-control"
@@ -102,7 +105,7 @@ const Formtwo = () => {
                 <div className="alert alert-danger">Failed to send message. Please try again later.</div>
               )}
 
-              <button type="submit" className="btn btn-primary text-center d-flex justify-content-center align-content-center" style={{margin: "10px auto", width: "50%"}} disabled={submitting}>
+              <button type="submit" className="btn btn-primary text-center d-flex justify-content-center align-content-center" style={{margin: "10px auto", width: "50%"}}   data-aos="zoom-in" disabled={submitting}>
                 {submitting ? "Submitting..." : "Submit"}
               </button>
             </form>
